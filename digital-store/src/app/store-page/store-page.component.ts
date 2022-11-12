@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Product } from '../product/product';
 
 @Component({
   selector: 'app-store-page',
@@ -7,9 +8,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class StorePageComponent implements OnInit {
 
-  constructor() { }
+  constructor(
+    //storeProducts: Product[],
+  ) { }
 
   ngOnInit(): void {
   }
+
 
 }
