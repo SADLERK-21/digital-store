@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Product } from '../product/product';
 
+
 @Component({
   selector: 'app-store-page',
   templateUrl: './store-page.component.html',
@@ -14,6 +15,6 @@ export class StorePageComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+  public value: string = "";
 
 }
